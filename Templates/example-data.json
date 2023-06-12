@@ -1,0 +1,1446 @@
+{
+    "weeks": [
+      {
+        "Date": "2023-06-11 -\u003E 2023-06-18",
+        "days": [
+          {
+            "date": "Sun Jun 11",
+            "events": [
+              {
+                "startDate": "08:30",
+                "endDate": "09:00",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Village Lounge",
+                "category": "Entertainment",
+                "featured": false
+              },
+              {
+                "startDate": "10:30",
+                "endDate": "12:30",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Village Gardens",
+                "category": "Spiritual \u0026 Wellbeing",
+                "featured": true
+              },
+              {
+                "startDate": "14:30",
+                "endDate": "15:00",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Village Lounge",
+                "category": "Music",
+                "featured": false
+              },
+              {
+                "startDate": "14:30",
+                "endDate": "16:00",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Village Green",
+                "category": "Cards \u0026 Games",
+                "featured": false
+              },
+              {
+                "startDate": "16:30",
+                "endDate": "17:00",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Movie Theatre",
+                "category": "Dancing",
+                "featured": true
+              }
+            ]
+          },
+          {
+            "date": "Mon Jun 12",
+            "events": [
+              {
+                "startDate": "08:30",
+                "endDate": "09:45",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Village Green",
+                "category": "Other",
+                "featured": false
+              },
+              {
+                "startDate": "08:30",
+                "endDate": "09:00",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Village Centre",
+                "category": "Sport \u0026 Fitness",
+                "featured": false
+              },
+              {
+                "startDate": "09:15",
+                "endDate": "11:30",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Village Bar",
+                "category": "Sport \u0026 Fitness",
+                "featured": false
+              },
+              {
+                "startDate": "13:30",
+                "endDate": "14:45",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Library",
+                "category": "Music",
+                "featured": false
+              },
+              {
+                "startDate": "16:45",
+                "endDate": "18:15",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Village Centre",
+                "category": "Educational",
+                "featured": false
+              }
+            ]
+          },
+          {
+            "date": "Tue Jun 13",
+            "events": [
+              {
+                "startDate": "10:30",
+                "endDate": "11:00",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Gym",
+                "category": "Music",
+                "featured": false
+              },
+              {
+                "startDate": "12:15",
+                "endDate": "13:45",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Village Bar",
+                "category": "Other",
+                "featured": false
+              },
+              {
+                "startDate": "12:45",
+                "endDate": "13:15",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Recreation Room",
+                "category": "Sport \u0026 Fitness",
+                "featured": true
+              },
+              {
+                "startDate": "14:45",
+                "endDate": "15:45",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Village Green",
+                "category": "Spiritual \u0026 Wellbeing",
+                "featured": true
+              },
+              {
+                "startDate": "15:30",
+                "endDate": "18:00",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Village Bar",
+                "category": "Other",
+                "featured": false
+              }
+            ]
+          },
+          {
+            "date": "Wed Jun 14",
+            "events": [
+              {
+                "startDate": "09:30",
+                "endDate": "11:45",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Village Green",
+                "category": "Cards \u0026 Games",
+                "featured": false
+              },
+              {
+                "startDate": "09:30",
+                "endDate": "10:00",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Village Lounge",
+                "category": "Sport \u0026 Fitness",
+                "featured": false
+              },
+              {
+                "startDate": "13:45",
+                "endDate": "15:45",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Village Centre",
+                "category": "Dancing",
+                "featured": false
+              },
+              {
+                "startDate": "15:30",
+                "endDate": "16:00",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Pool",
+                "category": "Sport \u0026 Fitness",
+                "featured": false
+              },
+              {
+                "startDate": "16:00",
+                "endDate": "16:30",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Village Gardens",
+                "category": "Food \u0026 Drinks",
+                "featured": false
+              }
+            ]
+          },
+          {
+            "date": "Thu Jun 15",
+            "events": [
+              {
+                "startDate": "08:45",
+                "endDate": "09:15",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Village Lounge",
+                "category": "Arts \u0026 Crafts",
+                "featured": false
+              },
+              {
+                "startDate": "10:15",
+                "endDate": "12:45",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Library",
+                "category": "Arts \u0026 Crafts",
+                "featured": false
+              },
+              {
+                "startDate": "12:15",
+                "endDate": "12:45",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Movie Theatre",
+                "category": "Out \u0026 About",
+                "featured": false
+              },
+              {
+                "startDate": "14:45",
+                "endDate": "16:45",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Village Lawn",
+                "category": "Entertainment",
+                "featured": false
+              },
+              {
+                "startDate": "15:00",
+                "endDate": "16:15",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Village Bar",
+                "category": "Out \u0026 About",
+                "featured": false
+              }
+            ]
+          },
+          {
+            "date": "Fri Jun 16",
+            "events": [
+              {
+                "startDate": "11:45",
+                "endDate": "12:15",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Village Bar",
+                "category": "Other",
+                "featured": false
+              },
+              {
+                "startDate": "14:15",
+                "endDate": "14:45",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Village Lawn",
+                "category": "Food \u0026 Drinks",
+                "featured": false
+              },
+              {
+                "startDate": "15:30",
+                "endDate": "18:00",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Craft Room",
+                "category": "Educational",
+                "featured": false
+              },
+              {
+                "startDate": "15:45",
+                "endDate": "16:45",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Dining Room",
+                "category": "Music",
+                "featured": false
+              },
+              {
+                "startDate": "15:45",
+                "endDate": "17:45",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Village Green",
+                "category": "Arts \u0026 Crafts",
+                "featured": false
+              }
+            ]
+          },
+          {
+            "date": "Sat Jun 17",
+            "events": [
+              {
+                "startDate": "09:30",
+                "endDate": "12:00",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Gym",
+                "category": "Sport \u0026 Fitness",
+                "featured": false
+              },
+              {
+                "startDate": "10:15",
+                "endDate": "11:45",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Craft Room",
+                "category": "Out \u0026 About",
+                "featured": false
+              },
+              {
+                "startDate": "12:15",
+                "endDate": "12:45",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Village Lounge",
+                "category": "Spiritual \u0026 Wellbeing",
+                "featured": false
+              },
+              {
+                "startDate": "14:30",
+                "endDate": "15:00",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Library",
+                "category": "Spiritual \u0026 Wellbeing",
+                "featured": false
+              },
+              {
+                "startDate": "15:30",
+                "endDate": "18:00",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Movie Theatre",
+                "category": "Educational",
+                "featured": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Date": "2023-06-18 -\u003E 2023-06-25",
+        "days": [
+          {
+            "date": "Sun Jun 18",
+            "events": [
+              {
+                "startDate": "08:00",
+                "endDate": "09:00",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Craft Room",
+                "category": "Out \u0026 About",
+                "featured": false
+              },
+              {
+                "startDate": "10:00",
+                "endDate": "12:30",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Village Lounge",
+                "category": "Educational",
+                "featured": false
+              },
+              {
+                "startDate": "12:15",
+                "endDate": "13:30",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Recreation Room",
+                "category": "Other",
+                "featured": false
+              },
+              {
+                "startDate": "13:00",
+                "endDate": "15:15",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Gym",
+                "category": "Educational",
+                "featured": false
+              },
+              {
+                "startDate": "14:30",
+                "endDate": "16:30",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Village Lounge",
+                "category": "Special Events",
+                "featured": false
+              }
+            ]
+          },
+          {
+            "date": "Mon Jun 19",
+            "events": [
+              {
+                "startDate": "08:00",
+                "endDate": "09:30",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Recreation Room",
+                "category": "Entertainment",
+                "featured": false
+              },
+              {
+                "startDate": "09:45",
+                "endDate": "10:15",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Recreation Room",
+                "category": "Dancing",
+                "featured": false
+              },
+              {
+                "startDate": "14:30",
+                "endDate": "15:30",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Craft Room",
+                "category": "Sport \u0026 Fitness",
+                "featured": false
+              },
+              {
+                "startDate": "15:30",
+                "endDate": "17:00",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Recreation Room",
+                "category": "Food \u0026 Drinks",
+                "featured": false
+              },
+              {
+                "startDate": "16:45",
+                "endDate": "19:00",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Village Lounge",
+                "category": "Educational",
+                "featured": false
+              }
+            ]
+          },
+          {
+            "date": "Tue Jun 20",
+            "events": [
+              {
+                "startDate": "08:15",
+                "endDate": "09:30",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Craft Room",
+                "category": "Arts \u0026 Crafts",
+                "featured": false
+              },
+              {
+                "startDate": "10:15",
+                "endDate": "12:45",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Village Centre",
+                "category": "Other",
+                "featured": false
+              },
+              {
+                "startDate": "11:45",
+                "endDate": "14:15",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Village Centre",
+                "category": "Dancing",
+                "featured": true
+              },
+              {
+                "startDate": "12:30",
+                "endDate": "13:00",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Gym",
+                "category": "Dancing",
+                "featured": false
+              },
+              {
+                "startDate": "15:00",
+                "endDate": "15:30",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Village Lounge",
+                "category": "Entertainment",
+                "featured": false
+              }
+            ]
+          },
+          {
+            "date": "Wed Jun 21",
+            "events": [
+              {
+                "startDate": "10:45",
+                "endDate": "12:00",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Village Centre",
+                "category": "Educational",
+                "featured": false
+              },
+              {
+                "startDate": "11:15",
+                "endDate": "12:15",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Movie Theatre",
+                "category": "Out \u0026 About",
+                "featured": false
+              },
+              {
+                "startDate": "13:30",
+                "endDate": "14:00",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Village Centre",
+                "category": "Entertainment",
+                "featured": false
+              },
+              {
+                "startDate": "16:30",
+                "endDate": "17:00",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Village Centre",
+                "category": "Sport \u0026 Fitness",
+                "featured": false
+              },
+              {
+                "startDate": "16:30",
+                "endDate": "18:45",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Craft Room",
+                "category": "Food \u0026 Drinks",
+                "featured": true
+              }
+            ]
+          },
+          {
+            "date": "Thu Jun 22",
+            "events": [
+              {
+                "startDate": "08:00",
+                "endDate": "10:00",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Gym",
+                "category": "Educational",
+                "featured": false
+              },
+              {
+                "startDate": "10:30",
+                "endDate": "11:00",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Pool",
+                "category": "Other",
+                "featured": false
+              },
+              {
+                "startDate": "12:45",
+                "endDate": "15:00",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Gym",
+                "category": "Special Events",
+                "featured": true
+              },
+              {
+                "startDate": "13:15",
+                "endDate": "13:45",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Village Gardens",
+                "category": "Music",
+                "featured": true
+              },
+              {
+                "startDate": "14:00",
+                "endDate": "16:30",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Village Green",
+                "category": "Entertainment",
+                "featured": false
+              }
+            ]
+          },
+          {
+            "date": "Fri Jun 23",
+            "events": [
+              {
+                "startDate": "10:45",
+                "endDate": "13:00",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Craft Room",
+                "category": "Educational",
+                "featured": false
+              },
+              {
+                "startDate": "12:30",
+                "endDate": "13:00",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Village Bar",
+                "category": "Special Events",
+                "featured": false
+              },
+              {
+                "startDate": "13:45",
+                "endDate": "14:15",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Recreation Room",
+                "category": "Sport \u0026 Fitness",
+                "featured": true
+              },
+              {
+                "startDate": "14:30",
+                "endDate": "17:00",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Movie Theatre",
+                "category": "Cards \u0026 Games",
+                "featured": false
+              },
+              {
+                "startDate": "14:45",
+                "endDate": "15:15",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Pool",
+                "category": "Out \u0026 About",
+                "featured": false
+              }
+            ]
+          },
+          {
+            "date": "Sat Jun 24",
+            "events": [
+              {
+                "startDate": "08:45",
+                "endDate": "09:15",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Village Centre",
+                "category": "Dancing",
+                "featured": false
+              },
+              {
+                "startDate": "12:00",
+                "endDate": "14:15",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Craft Room",
+                "category": "Spiritual \u0026 Wellbeing",
+                "featured": false
+              },
+              {
+                "startDate": "14:00",
+                "endDate": "16:30",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Pool",
+                "category": "Sport \u0026 Fitness",
+                "featured": false
+              },
+              {
+                "startDate": "14:45",
+                "endDate": "17:00",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Village Green",
+                "category": "Entertainment",
+                "featured": false
+              },
+              {
+                "startDate": "15:45",
+                "endDate": "16:15",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Gym",
+                "category": "Educational",
+                "featured": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Date": "2023-06-25 -\u003E 2023-07-02",
+        "days": [
+          {
+            "date": "Sun Jun 25",
+            "events": [
+              {
+                "startDate": "08:45",
+                "endDate": "09:15",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Village Green",
+                "category": "Special Events",
+                "featured": false
+              },
+              {
+                "startDate": "10:15",
+                "endDate": "11:15",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Village Lounge",
+                "category": "Arts \u0026 Crafts",
+                "featured": true
+              },
+              {
+                "startDate": "14:15",
+                "endDate": "16:30",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Village Centre",
+                "category": "Food \u0026 Drinks",
+                "featured": false
+              },
+              {
+                "startDate": "14:45",
+                "endDate": "17:00",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Dining Room",
+                "category": "Dancing",
+                "featured": true
+              },
+              {
+                "startDate": "15:00",
+                "endDate": "17:15",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Village Gardens",
+                "category": "Music",
+                "featured": false
+              }
+            ]
+          },
+          {
+            "date": "Mon Jun 26",
+            "events": [
+              {
+                "startDate": "10:30",
+                "endDate": "13:00",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Dining Room",
+                "category": "Entertainment",
+                "featured": false
+              },
+              {
+                "startDate": "10:30",
+                "endDate": "11:00",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Pool",
+                "category": "Cards \u0026 Games",
+                "featured": false
+              },
+              {
+                "startDate": "11:15",
+                "endDate": "13:15",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Village Centre",
+                "category": "Cards \u0026 Games",
+                "featured": false
+              },
+              {
+                "startDate": "12:45",
+                "endDate": "14:45",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Recreation Room",
+                "category": "Other",
+                "featured": true
+              },
+              {
+                "startDate": "15:45",
+                "endDate": "17:00",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Village Centre",
+                "category": "Entertainment",
+                "featured": false
+              }
+            ]
+          },
+          {
+            "date": "Tue Jun 27",
+            "events": [
+              {
+                "startDate": "09:00",
+                "endDate": "10:00",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Movie Theatre",
+                "category": "Other",
+                "featured": false
+              },
+              {
+                "startDate": "09:00",
+                "endDate": "10:00",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Cafe",
+                "category": "Educational",
+                "featured": false
+              },
+              {
+                "startDate": "11:30",
+                "endDate": "13:00",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Craft Room",
+                "category": "Music",
+                "featured": false
+              },
+              {
+                "startDate": "15:45",
+                "endDate": "18:00",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Reception",
+                "category": "Music",
+                "featured": false
+              },
+              {
+                "startDate": "16:00",
+                "endDate": "18:00",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Library",
+                "category": "Educational",
+                "featured": false
+              }
+            ]
+          },
+          {
+            "date": "Wed Jun 28",
+            "events": [
+              {
+                "startDate": "10:15",
+                "endDate": "11:45",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Cafe",
+                "category": "Special Events",
+                "featured": false
+              },
+              {
+                "startDate": "10:30",
+                "endDate": "12:30",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Village Bar",
+                "category": "Out \u0026 About",
+                "featured": false
+              },
+              {
+                "startDate": "10:45",
+                "endDate": "12:15",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Dining Room",
+                "category": "Spiritual \u0026 Wellbeing",
+                "featured": false
+              },
+              {
+                "startDate": "14:30",
+                "endDate": "16:45",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Village Centre",
+                "category": "Food \u0026 Drinks",
+                "featured": false
+              },
+              {
+                "startDate": "16:45",
+                "endDate": "17:15",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Gym",
+                "category": "Other",
+                "featured": false
+              }
+            ]
+          },
+          {
+            "date": "Thu Jun 29",
+            "events": [
+              {
+                "startDate": "12:00",
+                "endDate": "13:30",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Village Green",
+                "category": "Arts \u0026 Crafts",
+                "featured": false
+              },
+              {
+                "startDate": "12:15",
+                "endDate": "14:15",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Village Lounge",
+                "category": "Sport \u0026 Fitness",
+                "featured": false
+              },
+              {
+                "startDate": "15:15",
+                "endDate": "16:45",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Movie Theatre",
+                "category": "Special Events",
+                "featured": false
+              },
+              {
+                "startDate": "15:30",
+                "endDate": "17:45",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Village Lounge",
+                "category": "Music",
+                "featured": true
+              },
+              {
+                "startDate": "16:30",
+                "endDate": "17:00",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Movie Theatre",
+                "category": "Out \u0026 About",
+                "featured": false
+              }
+            ]
+          },
+          {
+            "date": "Fri Jun 30",
+            "events": [
+              {
+                "startDate": "09:15",
+                "endDate": "09:45",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Village Bar",
+                "category": "Educational",
+                "featured": false
+              },
+              {
+                "startDate": "09:45",
+                "endDate": "10:15",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Movie Theatre",
+                "category": "Sport \u0026 Fitness",
+                "featured": false
+              },
+              {
+                "startDate": "11:00",
+                "endDate": "12:30",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Pool",
+                "category": "Educational",
+                "featured": false
+              },
+              {
+                "startDate": "13:15",
+                "endDate": "15:45",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Village Lounge",
+                "category": "Special Events",
+                "featured": false
+              },
+              {
+                "startDate": "15:15",
+                "endDate": "17:45",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Village Centre",
+                "category": "Out \u0026 About",
+                "featured": false
+              }
+            ]
+          },
+          {
+            "date": "Sat Jul 01",
+            "events": [
+              {
+                "startDate": "09:15",
+                "endDate": "10:15",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Reception",
+                "category": "Cards \u0026 Games",
+                "featured": false
+              },
+              {
+                "startDate": "11:30",
+                "endDate": "13:00",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Recreation Room",
+                "category": "Educational",
+                "featured": false
+              },
+              {
+                "startDate": "12:00",
+                "endDate": "13:00",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Recreation Room",
+                "category": "Other",
+                "featured": false
+              },
+              {
+                "startDate": "13:30",
+                "endDate": "14:00",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Village Gardens",
+                "category": "Arts \u0026 Crafts",
+                "featured": false
+              },
+              {
+                "startDate": "15:30",
+                "endDate": "16:00",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Library",
+                "category": "Other",
+                "featured": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Date": "2023-07-02 -\u003E 2023-07-09",
+        "days": [
+          {
+            "date": "Sun Jul 02",
+            "events": [
+              {
+                "startDate": "10:15",
+                "endDate": "11:15",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Reception",
+                "category": "Special Events",
+                "featured": true
+              },
+              {
+                "startDate": "11:15",
+                "endDate": "13:30",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Village Centre",
+                "category": "Dancing",
+                "featured": false
+              },
+              {
+                "startDate": "11:30",
+                "endDate": "12:45",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Village Lawn",
+                "category": "Arts \u0026 Crafts",
+                "featured": false
+              },
+              {
+                "startDate": "12:30",
+                "endDate": "13:45",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Village Green",
+                "category": "Arts \u0026 Crafts",
+                "featured": true
+              },
+              {
+                "startDate": "14:00",
+                "endDate": "14:30",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Village Lounge",
+                "category": "Spiritual \u0026 Wellbeing",
+                "featured": false
+              }
+            ]
+          },
+          {
+            "date": "Mon Jul 03",
+            "events": [
+              {
+                "startDate": "10:15",
+                "endDate": "12:30",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Craft Room",
+                "category": "Spiritual \u0026 Wellbeing",
+                "featured": false
+              },
+              {
+                "startDate": "12:15",
+                "endDate": "12:45",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Village Centre",
+                "category": "Out \u0026 About",
+                "featured": true
+              },
+              {
+                "startDate": "12:45",
+                "endDate": "14:00",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Gym",
+                "category": "Music",
+                "featured": true
+              },
+              {
+                "startDate": "14:15",
+                "endDate": "16:15",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Movie Theatre",
+                "category": "Educational",
+                "featured": false
+              },
+              {
+                "startDate": "14:15",
+                "endDate": "14:45",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Recreation Room",
+                "category": "Food \u0026 Drinks",
+                "featured": false
+              }
+            ]
+          },
+          {
+            "date": "Tue Jul 04",
+            "events": [
+              {
+                "startDate": "12:30",
+                "endDate": "14:30",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Gym",
+                "category": "Dancing",
+                "featured": false
+              },
+              {
+                "startDate": "13:30",
+                "endDate": "14:00",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Village Bar",
+                "category": "Dancing",
+                "featured": true
+              },
+              {
+                "startDate": "14:15",
+                "endDate": "15:15",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Gym",
+                "category": "Sport \u0026 Fitness",
+                "featured": false
+              },
+              {
+                "startDate": "15:15",
+                "endDate": "16:15",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Recreation Room",
+                "category": "Spiritual \u0026 Wellbeing",
+                "featured": false
+              },
+              {
+                "startDate": "15:45",
+                "endDate": "16:15",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Craft Room",
+                "category": "Sport \u0026 Fitness",
+                "featured": false
+              }
+            ]
+          },
+          {
+            "date": "Wed Jul 05",
+            "events": [
+              {
+                "startDate": "09:30",
+                "endDate": "11:00",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Village Gardens",
+                "category": "Dancing",
+                "featured": true
+              },
+              {
+                "startDate": "10:00",
+                "endDate": "12:00",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Movie Theatre",
+                "category": "Special Events",
+                "featured": false
+              },
+              {
+                "startDate": "10:00",
+                "endDate": "12:00",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Gym",
+                "category": "Music",
+                "featured": false
+              },
+              {
+                "startDate": "10:30",
+                "endDate": "11:45",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Village Lawn",
+                "category": "Food \u0026 Drinks",
+                "featured": false
+              },
+              {
+                "startDate": "15:30",
+                "endDate": "16:45",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Village Lounge",
+                "category": "Arts \u0026 Crafts",
+                "featured": false
+              }
+            ]
+          },
+          {
+            "date": "Thu Jul 06",
+            "events": [
+              {
+                "startDate": "08:15",
+                "endDate": "10:45",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Village Green",
+                "category": "Entertainment",
+                "featured": false
+              },
+              {
+                "startDate": "11:00",
+                "endDate": "12:00",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Village Green",
+                "category": "Entertainment",
+                "featured": true
+              },
+              {
+                "startDate": "11:15",
+                "endDate": "12:45",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Dining Room",
+                "category": "Educational",
+                "featured": false
+              },
+              {
+                "startDate": "11:45",
+                "endDate": "14:15",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Village Lounge",
+                "category": "Music",
+                "featured": false
+              },
+              {
+                "startDate": "13:30",
+                "endDate": "14:00",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Village Lounge",
+                "category": "Dancing",
+                "featured": false
+              }
+            ]
+          },
+          {
+            "date": "Fri Jul 07",
+            "events": [
+              {
+                "startDate": "10:00",
+                "endDate": "12:15",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Village Centre",
+                "category": "Cards \u0026 Games",
+                "featured": false
+              },
+              {
+                "startDate": "11:00",
+                "endDate": "13:15",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Village Gardens",
+                "category": "Sport \u0026 Fitness",
+                "featured": false
+              },
+              {
+                "startDate": "13:15",
+                "endDate": "14:30",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Village Lawn",
+                "category": "Cards \u0026 Games",
+                "featured": true
+              },
+              {
+                "startDate": "15:15",
+                "endDate": "16:45",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Gym",
+                "category": "Special Events",
+                "featured": true
+              },
+              {
+                "startDate": "16:15",
+                "endDate": "18:45",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Village Gardens",
+                "category": "Entertainment",
+                "featured": false
+              }
+            ]
+          },
+          {
+            "date": "Sat Jul 08",
+            "events": [
+              {
+                "startDate": "11:00",
+                "endDate": "12:00",
+                "title": "Event 0",
+                "description": "Event 0 description",
+                "location": "Village Lounge",
+                "category": "Sport \u0026 Fitness",
+                "featured": false
+              },
+              {
+                "startDate": "11:30",
+                "endDate": "13:00",
+                "title": "Event 4",
+                "description": "Event 4 description",
+                "location": "Library",
+                "category": "Sport \u0026 Fitness",
+                "featured": false
+              },
+              {
+                "startDate": "12:15",
+                "endDate": "13:45",
+                "title": "Event 3",
+                "description": "Event 3 description",
+                "location": "Village Lawn",
+                "category": "Spiritual \u0026 Wellbeing",
+                "featured": true
+              },
+              {
+                "startDate": "12:45",
+                "endDate": "14:45",
+                "title": "Event 1",
+                "description": "Event 1 description",
+                "location": "Movie Theatre",
+                "category": "Spiritual \u0026 Wellbeing",
+                "featured": false
+              },
+              {
+                "startDate": "15:45",
+                "endDate": "18:00",
+                "title": "Event 2",
+                "description": "Event 2 description",
+                "location": "Village Green",
+                "category": "Sport \u0026 Fitness",
+                "featured": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "featuredEvents": [
+      {
+        "title": "Event 0",
+        "description": "Event 0 description"
+      },
+      {
+        "title": "Event 2",
+        "description": "Event 2 description"
+      },
+      {
+        "title": "Event 4",
+        "description": "Event 4 description"
+      },
+      {
+        "title": "Event 3",
+        "description": "Event 3 description"
+      },
+      {
+        "title": "Event 1",
+        "description": "Event 1 description"
+      }
+    ]
+  }

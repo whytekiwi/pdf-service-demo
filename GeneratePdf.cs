@@ -8,21 +8,23 @@ namespace PdfService.Demo
     public class GeneratePdf
     {
         private readonly ILogger _logger;
+        private readonly IPdfGeneator _pdfGeneator;
 
-        public GeneratePdf(ILoggerFactory loggerFactory)
+        public GeneratePdf(ILoggerFactory loggerFactory, IPdfGeneator pdfGeneator)
         {
             _logger = loggerFactory.CreateLogger<GeneratePdf>();
+            _pdfGeneator = pdfGeneator;
         }
 
         [Function("GeneratePdf")]
-        public HttpResponseData Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")] HttpRequestData req)
+        public async Task<HttpResponseData> Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")] HttpRequestData req)
         {
-            _logger.LogInformation("C# HTTP trigger function processed a request.");
+            var filePath = "C:\\Repos\\PDFServiceDemo\\Templates\\PrintableCalendar.html";
+            var pdfStream = await _pdfGeneator.GeneratePdfAsync(filePath);
 
             var response = req.CreateResponse(HttpStatusCode.OK);
-            response.Headers.Add("Content-Type", "text/plain; charset=utf-8");
-
-            response.WriteString("Welcome to Azure Functions!");
+            response.Headers.Add("Content-Type", "application/pdf");
+            response.Body = pdfStream;
 
             return response;
         }
