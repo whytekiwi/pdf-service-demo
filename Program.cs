@@ -5,7 +5,10 @@ var host = new HostBuilder()
     .ConfigureFunctionsWorkerDefaults()
     .ConfigureServices(services =>
     {
-        services.AddSingleton<IPdfGeneator, PdfGeneator>();
+        services.AddSingleton<BlobConfiguration>();
+        services.AddSingleton<IPdfGenerator, PdfGenerator>();
+        services.AddSingleton<IBlobStorageIterator, BlobStorageIterator>();
+
     })
     .Build();
 

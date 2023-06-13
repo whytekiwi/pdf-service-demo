@@ -1,18 +1,18 @@
 using Syncfusion.HtmlConverter;
 using Syncfusion.Pdf;
 
-public interface IPdfGeneator
+public interface IPdfGenerator
 {
     Task<Stream> GeneratePdfAsync(string templateLocation);
 }
 
-public class PdfGeneator : IPdfGeneator
+public class PdfGenerator : IPdfGenerator
 {
-    public PdfGeneator() { }
+    public PdfGenerator() { }
 
     public async Task<Stream> GeneratePdfAsync(string templateLocation)
     {
-        var template = await ParseTempalteFromData(templateLocation);
+        var template = await ParseTemplateFromData(templateLocation);
         HtmlToPdfConverter htmlConverter = new HtmlToPdfConverter(HtmlRenderingEngine.Blink);
         PdfDocument document = htmlConverter.Convert(template, Path.GetDirectoryName(templateLocation));
         Stream memStream = new MemoryStream();
@@ -21,7 +21,7 @@ public class PdfGeneator : IPdfGeneator
         return memStream;
     }
 
-    private Task<string> ParseTempalteFromData(string templateFileLocation)
+    private Task<string> ParseTemplateFromData(string templateFileLocation)
     {
         // TODO interpolate data into template
         return File.ReadAllTextAsync(templateFileLocation);
