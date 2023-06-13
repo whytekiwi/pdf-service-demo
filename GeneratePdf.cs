@@ -1,4 +1,5 @@
 using System.Net;
+using System.Text.Json;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Azure.Functions.Worker.Http;
 using Microsoft.Extensions.Logging;
@@ -15,15 +16,31 @@ public class GeneratePdf
     }
 
     [Function("GeneratePdf")]
-    public async Task<HttpResponseData> Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")] HttpRequestData req)
+    public async Task<HttpResponseData> Run([HttpTrigger(AuthorizationLevel.Anonymous, "post")] HttpRequestData req)
     {
-        var filePath = "C:\\Repos\\PDFServiceDemo\\Templates\\PrintableCalendar.html";
-        var pdfStream = await _pdfGenerator.GeneratePdfAsync(filePath);
+        GeneratePdfRequestObject? body = await JsonSerializer.DeserializeAsync<GeneratePdfRequestObject>(req.Body);
+        if (string.IsNullOrEmpty(body?.templateId))
+        {
+            _logger.LogError("TemplateId is null or empty");
+            var res = req.CreateResponse(HttpStatusCode.BadRequest);
+            res.WriteString("TemplateId is null or empty");
+            return res;
+        }
 
-        var response = req.CreateResponse(HttpStatusCode.OK);
-        response.Headers.Add("Content-Type", "application/pdf");
-        response.Body = pdfStream;
-
-        return response;
+        try
+        {
+            var pdfStream = await _pdfGenerator.GeneratePdfAsync(body.templateId);
+            var response = req.CreateResponse(HttpStatusCode.OK);
+            response.Headers.Add("Content-Type", "application/pdf");
+            response.Body = pdfStream;
+            return response;
+        }
+        catch (TemplateDoesNotExistException ex)
+        {
+            _logger.LogError(ex.Message);
+            var res = req.CreateResponse(HttpStatusCode.BadRequest);
+            res.WriteString(ex.Message);
+            return res;
+        }
     }
 }

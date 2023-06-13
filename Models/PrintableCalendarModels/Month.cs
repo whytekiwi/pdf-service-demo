@@ -1,0 +1,1 @@
+public record Month(Week[] weeks, FeaturedEvent[] featuredEvents);

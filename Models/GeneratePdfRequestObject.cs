@@ -1,0 +1,1 @@
+public record GeneratePdfRequestObject(string? templateId, Month? data);

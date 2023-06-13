@@ -1,0 +1,1 @@
+public record Day(string date, Event[] events);
